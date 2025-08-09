@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional base to match brand */
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+body { background: #0A0A0A; color: #FAFAFA; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
